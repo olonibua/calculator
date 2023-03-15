@@ -1,0 +1,92 @@
+
+.cal{
+    height: 550px;
+    width: 432px;
+    margin: auto;
+    background-color: white;
+    color: aqua;
+    border-radius: 10px;
+    font-family: DSIndigo, Helvetica, Arial, sans-serif;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    filter: drop-shadow(5px 5px 10px rgb(167, 167, 167));
+}
+.input{
+    border-radius: 6px;
+    height: 85px;
+    width: 404px;
+    margin-bottom: 4px;
+    background-color: white;
+    font-size: 30px;
+    padding-left: 4px;
+    filter: drop-shadow(5px 5px 10px rgb(167, 167, 167));
+}
+
+.input:hover{
+    background-color: aliceblue;
+}
+button:hover {
+    background-color: aliceblue;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    border: 3px;
+}
+
+@media screen and (max-width: 750px) {
+	.cal{
+        height: 400px;
+        width: 352px;
+        margin: auto;
+        background-color: white;
+        color: aqua;
+        border-radius: 10px;
+        font-family: DSIndigo, Helvetica, Arial, sans-serif;
+    }
+    
+    button{
+        height: 80px;
+        width: 80px;
+        border-radius: 6px;
+        background-color: white;
+        font-size: 20px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        filter: drop-shadow(5px 5px 10px rgb(199, 199, 199));
+
+    }
+    .input{
+        border-radius: 6px;
+        height: 70px;
+        width: 322px;
+        padding-bottom: 6px;
+        margin-bottom: 2px;
+        background-color: white;
+        font-size: 30px;
+        padding-left: 4px;
+        filter: drop-shadow(5px 5px 10px rgb(199, 199, 199));
+
+    }
+    
+    .input:hover{
+        background-color: aliceblue;
+    }
+    button:hover {
+        background-color: aliceblue;
+    }
+    p{
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+}
