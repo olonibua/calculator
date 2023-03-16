@@ -6,7 +6,7 @@
   "main": "Calculator.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b master"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
